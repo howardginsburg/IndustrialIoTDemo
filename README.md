@@ -12,7 +12,7 @@ This project is a simplification of the [IOT-Edge-For-IIOT](https://github.com/A
 2. Ubuntu VM with IoT Edge installed - [Instructions](https://docs.microsoft.com/azure/iot-edge/how-to-provision-single-device-linux-symmetric?view=iotedge-2020-11&tabs=azure-portal%2Cubuntu)
 3. Azure Container Registry - [Instructions](https://docs.microsoft.com/Azure/container-registry/container-registry-get-started-portal#create-a-container-registry)
 4. Log Analytics Workspace - [Instructions](https://docs.microsoft.com/en-us/azure/azure-monitor/logs/quick-create-workspace)
-5. Visual Studio Code - [Download Page](https://code.visualstudio.com/) [Azure IoT Tools Extension](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-tools)
+5. Visual Studio Code - [Download Page](https://code.visualstudio.com/) and [Azure IoT Tools Extension Page](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-tools)
 6. SQL Server Management Studio [https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15]
 
 ## Deployment

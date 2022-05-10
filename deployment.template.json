@@ -193,7 +193,7 @@
       "properties.desired": {
         "schemaVersion": "1.1",
         "routes": {
-          "cloud": "FROM /messages/* INTO $upstream",
+          "cloud": "FROM /messages/modules/opcpublisher/* INTO $upstream",
           "opc": "FROM /messages/modules/opcpublisher/* INTO BrokeredEndpoint(\"/modules/sqledge/inputs/OPCUAData\")"
         },
         "storeAndForwardConfiguration": {

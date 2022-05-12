@@ -24,7 +24,7 @@ This project is a simplification of the [IOT-Edge-For-IIOT](https://github.com/A
 
 1. Clone this repo locally.
 2. Rename .envsample to .env and enter the required data points.
-3. Optional: the sql edge sa credential password is set to 'Password_54321'.  You can do a search and replace across the files to change it.
+3. Optional: the sqledge 'sa' credential password is set to 'Password_54321'.  To change it, do a search and replace across ALL the files in the repo to change all instances.
 4. From the terminal command line, connect to your azure container registry using `az acr login --name <registry name>`.
 5. Right click on deployment.template.json and select 'Build and Push IoT Edge Solution'.  This will build containers for all the modules and push them to your azure container registry.
 6. Right click on deployment.template.json and select 'IoT Edge Deployment Manifest'.  This will create a deployment file for the AMD64 platform in the config directory.
@@ -41,7 +41,7 @@ This project is a simplification of the [IOT-Edge-For-IIOT](https://github.com/A
 ### OPC Simulator
 
 1. Open inbound port 1880
-2. Use a web browser to connect to http://<servername>:1880
+2. Use a web browser to connect to `http://<servername>:1880`
 3. Explore the NodeRed environment for how the simulator works.
 
 ### OPC Publisher
@@ -58,7 +58,7 @@ This project is a simplification of the [IOT-Edge-For-IIOT](https://github.com/A
 ### Grafana
 
 1. Open inbound port 3000
-2. Use a web browser to connect to http://<servername>:3000.  Default credentials are 'admin/admin'
+2. Use a web browser to connect to `http://<servername>:3000`.  Default credentials are 'admin/admin'
 3. Open the different dashboards to see the performance of the opc simulator.
 
 ### IoT Edge Metrics Collector
